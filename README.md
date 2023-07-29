@@ -20,7 +20,8 @@ Gestor de base de datos (por ejemplo, MySQL).
 + periodo_inicio (DATE)
 + periodo_fin (DATE)
 + estado (STRING)
-+ Tabla "Clientes":
+
+**Tabla "Clientes":**
 + id (INTEGER, clave primaria)
 + dni (STRING)
 + nombre (STRING)
