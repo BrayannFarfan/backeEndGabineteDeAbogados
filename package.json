@@ -1,0 +1,20 @@
+{
+  "name": "abogados",
+  "version": "1.0.0",
+  "description": "Api para una serie de asuntos los cuales , cada asunto va a tener un cliente y puede tener uno o mas produradores , al momento de traer los asuntos o un asunto, traerá consigo , el usuario que tiene designado y el/los producadores que tienen el asunto",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Brayann Farfan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.5.2",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
