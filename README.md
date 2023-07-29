@@ -25,16 +25,17 @@ Gestor de base de datos (por ejemplo, MySQL).
 + dni (STRING)
 + nombre (STRING)
 + direccion (STRING)
-...
+
 **Tabla "Procuradores":**
 + id (INTEGER, clave primaria)
 + dni (STRING)
 + nombre (STRING)
-...
+
 **Uso**
 - Iniciar la aplicación mediante el comando ***npm run dev***.
 - La aplicación se ejecutará y creará las tablas necesarias en la base de datos configurada.
 - Puede utilizar las operaciones CRUD proporcionadas por Sequelize para interactuar con la base de datos desde su aplicación Node.js.
+
 **Contribuciones**
 ***Este proyecto es de código abierto y las contribuciones son bienvenidas. Si desea contribuir, por favor envíe un pull request explicando los cambios propuestos.***
 
